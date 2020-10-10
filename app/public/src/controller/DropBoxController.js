@@ -33,7 +33,7 @@ class DropBoxController {
 
 			promises.push(new Promise((resolve, reject) => {
 
-				let ajax = new new XMLHttpRequest();
+				let ajax = new XMLHttpRequest();
 
 				ajax.open('POST', '/upload');
 
